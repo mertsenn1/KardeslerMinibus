@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profile UI</string>
+    <string name="p_your_name">Your Name</string>
+    <string name="p_your_route">Choose Your Route</string>
+    <string name="p_your_plate_number">Your Plate Number</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="profile">Profile</string>
+</resources>
