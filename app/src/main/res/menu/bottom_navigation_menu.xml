@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_searchreg"
+        android:icon="@drawable/searchreg" />
+
+    <item
+        android:id="@+id/navigation_busbold"
+        android:icon="@drawable/busbold" />
+
+    <item
+        android:id="@+id/navigation_settingsreg"
+        android:icon="@drawable/settingsreg" />
+</menu>
