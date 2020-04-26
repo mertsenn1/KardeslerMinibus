@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Passenger Settings</string>
+    <string name="settings">Settings</string>
+    <string name="notification_timer">Notification Timer</string>
+    <string name="how_many_minutes_before_minibus_arrives_at_your_location_you_want_to_be_notified">How many minutes before minibus arrives at your location, you want to be notified?</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_preferences">Privacy preferences</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="please_tell_us_a_little_more_about_what_happened_so_we_can_fix_the_problem_as_quick_as_possible">Please tell us a little more about what happened so we can fix the problem as quick as possible</string>
+    <string name="todo">TODO</string>
+</resources>

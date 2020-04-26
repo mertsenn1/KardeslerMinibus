@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_searchreg"
+        android:icon="@drawable/searchreg"
+        android:title="@string/todo" />
+
+    <item
+        android:id="@+id/navigation_busbold"
+        android:icon="@drawable/busbold"
+        android:title="@string/todo" />
+
+    <item
+        android:id="@+id/navigation_settingsreg"
+        android:icon="@drawable/settingsreg"
+        android:title="@string/todo" />
+</menu>
