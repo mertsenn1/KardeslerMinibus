@@ -1,4 +1,4 @@
-# CS102 ~ Personal Log page ~
+# CS102 ~ Sebnem's Log Page ~
 ****
 Sebnem Turkoglu
 ****
