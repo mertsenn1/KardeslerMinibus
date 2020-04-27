@@ -12,11 +12,11 @@ Every member
 We distributed the tasks for front-end design. Every member has a design task to do via android studio.
 
 **ToDo:**
-Mert-Driver userface( sign-in and sign-up design )
-Arda-Adding map to the interface and a search bar to specify destination
-Þebnem-Homepage design
-Ege-Settings design
-Bahadýr-Driver userface( profile part design )
+Mert - Driver userface( sign-in and sign-up design )
+Arda - Adding map to the interface and a search bar to specify destination
+Sebnem - Homepage design and route search page
+Ege - Settings design
+Bahadir - Driver userface( profile part design )
 
 
 ****
