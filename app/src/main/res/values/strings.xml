@@ -8,4 +8,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_text">The best way to find your way around. Let\'s get \nstarted!</string>
+    <string name="passenger_entry">PASSENGER ENTRY</string>
+    <string name="driver_login">DRIVER LOGIN</string>
 </resources>

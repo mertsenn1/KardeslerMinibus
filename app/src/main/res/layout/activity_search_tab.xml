@@ -13,10 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="383dp"
-        tools:layout_editor_absoluteY="34dp">
-
-
-    </androidx.fragment.app.FragmentContainerView>
+        tools:layout_editor_absoluteY="34dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -54,7 +51,7 @@
     </SearchView>
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/routesScrollView"
         android:layout_width="402dp"
         android:layout_height="572dp"
         android:layout_marginTop="44dp"
@@ -72,18 +69,19 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/allLines"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="24dp"
                 android:layout_marginLeft="24dp"
-                android:fontFamily="@font/regular"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/sfregular"
                 android:gravity="start"
                 android:text="ALL LINES"
-                android:textSize="15dp" />
+                android:textSize="15sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/route1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -92,11 +90,14 @@
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
                 android:text="CEBECI - DORTYOL - BAHCELI"
+                android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray" />
+                android:textColor="@color/mediumgray"
+                android:paddingStart="14dp"
+                tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/route2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -104,11 +105,15 @@
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
                 android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
+                android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray" />
+                android:textColor="@color/mediumgray"
+                android:drawableStart="@drawable/searchbusicon"
+                android:paddingStart="14dp"
+                tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/route3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/scroll_button"
@@ -116,8 +121,12 @@
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
                 android:text="ÇUKURAMBAR • ÜMİTKÖY"
+                android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray" />
+                android:textColor="@color/mediumgray"
+                android:paddingStart="14dp"
+                android:drawableStart="@drawable/searchbusicon"
+                tools:ignore="RtlSymmetry" />
 
         </LinearLayout>
     </ScrollView>

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void configureNextButton() {
-        Button buttonNext = (Button) findViewById( R.id.buttonNext);
+        Button buttonNext = (Button) findViewById( R.id.passengerLoginButton);
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
