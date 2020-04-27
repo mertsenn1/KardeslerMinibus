@@ -28,16 +28,35 @@ tools:context=".MainActivity">
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="1.0"
             tools:context=".MapsActivity" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="365sp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/input_field"
+            android:elevation="5sp"
+            android:ems="10"
+            android:fontFamily="@font/gibsonregular"
+            android:hint="Enter Place Here"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.347"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="@color/gray"
-            app:itemIconTint="@color/white"
+            android:background="@color/white"
+            app:itemIconTint="@color/gray"
             app:itemTextColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
