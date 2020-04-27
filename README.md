@@ -25,12 +25,12 @@ interest to virtually anyone who uses public transport, and especially minibuses
 
 [Group Meetings Log](group/meetingslog.md)
 #### Group Members
-- [Mert Þen](group/mert_log.md)    _(full name & link to personal log file)_
-- [Ege Demirkýrkan](group/ege_log.md)
-- [Þebnem Türkoðlu](group/sebnem_log.md)
-- [Mehmet Bahadýr Erkan](group/bahadir_log.md)
-- [Arda Atahan Ýbiþ](group/arda_log.md)
+- [Mert Sen](group/mert_log.md)    _(full name & link to personal log file)_
+- [Ege Demirkirkan](group/ege_log.md)
+- [Sebnem Turkoglu](group/sebnem_log.md)
+- [Mehmet Bahadir Erkan](group/bahadir_log.md)
+- [Arda Atahan Ibis](group/arda_log.md)
 
 ****
-**Instructor:** David Davenport  **TA:**  Mustafa Duymuþ
+**Instructor:** David Davenport  **TA:**  Mustafa Duymus
 ****
