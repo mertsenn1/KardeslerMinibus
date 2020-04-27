@@ -14,12 +14,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        configureNextButton();
+        configurePassengerButton();
+        configureDriverButton();
     }
 
-    private void configureNextButton() {
-        Button buttonNext = (Button) findViewById( R.id.passengerLoginButton);
-        buttonNext.setOnClickListener(new View.OnClickListener() {
+    private void configurePassengerButton() {
+        Button buttonPassenger = (Button) findViewById( R.id.passengerLoginButton);
+        buttonPassenger.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( MainActivity.this, SignUpActivity.class) );
+            }
+        });
+    }
+    private void configureDriverButton() {
+        Button buttonDriver = (Button) findViewById( R.id.driverLoginButton);
+        buttonDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity( new Intent( MainActivity.this, SearchTab.class) );
