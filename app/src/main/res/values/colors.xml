@@ -9,4 +9,6 @@
     <color name="violet">#665EFF</color>
     <color name="lightgray">#78849E</color>
     <color name="mediumgray">#454f63</color>
+    <color name="gray">#d0cfcf</color>
+    <color name="snowgray">#f6f5f5</color>
 </resources>

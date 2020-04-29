@@ -27,5 +27,17 @@ public class SignInActivity extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
+
+        configureContinueButton();
+    }
+
+    private void configureContinueButton() {
+        Button buttonContinue = (Button) findViewById( R.id.continueButton2);
+        buttonContinue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SignInActivity.this, MapActivity.class) );
+            }
+        });
     }
 }
