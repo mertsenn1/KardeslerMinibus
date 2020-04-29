@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CSProject</string>
+    <string name="app_name">Coming Soon</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -11,4 +11,5 @@
     <string name="intro_text">The best way to find your way around. Let\'s get \nstarted!</string>
     <string name="passenger_entry">PASSENGER ENTRY</string>
     <string name="driver_login">DRIVER LOGIN</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

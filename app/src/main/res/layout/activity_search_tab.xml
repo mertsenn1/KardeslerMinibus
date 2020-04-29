@@ -16,6 +16,7 @@
         tools:layout_editor_absoluteY="34dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -69,7 +70,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/allLines"
+                android:id="@+id/allLines2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"

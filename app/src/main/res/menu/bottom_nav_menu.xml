@@ -2,22 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/searchFragment"
+        android:id="@+id/search"
         android:icon="@drawable/searchbold"
         android:iconTint="@color/lightgray"
-        android:enabled="true"
         />
 
     <item
-        android:id="@+id/navigationFragment"
+        android:id="@+id/map"
         android:icon="@drawable/busreg"
         android:iconTint="@color/lightgray"
-        android:enabled="true"/>
+        />
 
     <item
-        android:id="@+id/settingsFragment"
+        android:id="@+id/settings"
         android:icon="@drawable/settingsreg"
         android:iconTint="@color/lightgray"
-        android:enabled="true"/>
+        />
 
 </menu>

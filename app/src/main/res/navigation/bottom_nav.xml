@@ -3,21 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottom_nav"
-    app:startDestination="@id/searchFragment">
-
-    <fragment
-        android:id="@+id/searchFragment"
-        android:name="com.example.comingsoon.SearchFragment"
-        android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
-    <fragment
-        android:id="@+id/navigationFragment"
-        android:name="com.example.comingsoon.NavigationFragment"
-        android:label="fragment_navigation"
-        tools:layout="@layout/fragment_navigation" />
-    <fragment
-        android:id="@+id/settingsFragment"
-        android:name="com.example.comingsoon.SettingsFragment"
-        android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+    app:startDestination="@id/searchTab">
+    <activity
+        android:id="@+id/searchTab"
+        android:name="com.example.comingsoon.SearchTab"
+        android:label="activity_search_tab"
+        tools:layout="@layout/activity_search_tab" />
+    <activity
+        android:id="@+id/mapActivity"
+        android:name="com.example.comingsoon.MapActivity"
+        android:label="activity_map"
+        tools:layout="@layout/activity_map" />
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.comingsoon.SettingsActivity"
+        android:label="activity_settings"
+        tools:layout="@layout/activity_settings" />
 </navigation>

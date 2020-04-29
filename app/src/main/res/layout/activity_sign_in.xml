@@ -78,8 +78,6 @@
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_signin"
         android:fontFamily="@font/sfsemibold"
@@ -87,8 +85,8 @@
         android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/emailText2"
-        app:layout_constraintEnd_toStartOf="@+id/signupButton2"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintEnd_toStartOf="@+id/signupButton"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -107,6 +105,8 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/emailText2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
