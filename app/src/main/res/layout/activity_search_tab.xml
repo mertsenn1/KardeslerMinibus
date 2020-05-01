@@ -19,14 +19,15 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/theme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/bottom_nav_menu">
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="UnknownId">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
@@ -93,7 +94,7 @@
                 android:text="CEBECI - DORTYOL - BAHCELI"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
@@ -108,7 +109,7 @@
                 android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:drawableStart="@drawable/searchbusicon"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
@@ -124,13 +125,13 @@
                 android:text="ÇUKURAMBAR • ÜMİTKÖY"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 android:drawableStart="@drawable/searchbusicon"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route1"
+                android:id="@+id/route4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -141,12 +142,12 @@
                 android:text="CEBECI - DORTYOL - BAHCELI"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route2"
+                android:id="@+id/route5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -156,13 +157,13 @@
                 android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:drawableStart="@drawable/searchbusicon"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route3"
+                android:id="@+id/route6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/scroll_button"
@@ -172,12 +173,12 @@
                 android:text="ÇUKURAMBAR • ÜMİTKÖY"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 android:drawableStart="@drawable/searchbusicon"
                 tools:ignore="RtlSymmetry" />
             <Button
-                android:id="@+id/route1"
+                android:id="@+id/route7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -188,12 +189,12 @@
                 android:text="CEBECI - DORTYOL - BAHCELI"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route2"
+                android:id="@+id/route8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -203,13 +204,13 @@
                 android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:drawableStart="@drawable/searchbusicon"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route3"
+                android:id="@+id/route9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/scroll_button"
@@ -219,12 +220,12 @@
                 android:text="ÇUKURAMBAR • ÜMİTKÖY"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 android:drawableStart="@drawable/searchbusicon"
                 tools:ignore="RtlSymmetry" />
             <Button
-                android:id="@+id/route1"
+                android:id="@+id/route10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -235,12 +236,12 @@
                 android:text="CEBECI - DORTYOL - BAHCELI"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route2"
+                android:id="@+id/route11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -250,13 +251,13 @@
                 android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:drawableStart="@drawable/searchbusicon"
                 android:paddingStart="14dp"
                 tools:ignore="RtlSymmetry" />
 
             <Button
-                android:id="@+id/route3"
+                android:id="@+id/route12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/scroll_button"
@@ -266,7 +267,7 @@
                 android:text="ÇUKURAMBAR • ÜMİTKÖY"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
-                android:textColor="@color/mediumgray"
+                android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 android:drawableStart="@drawable/searchbusicon"
                 tools:ignore="RtlSymmetry" />

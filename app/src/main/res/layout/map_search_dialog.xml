@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sheet_menu_layout"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="30dp">
+
+    <LinearLayout
+    android:id="@+id/routeOption1"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/sheet_menu"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:src="@drawable/searchbusicon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/routeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="Kızılay Minibus"
+            android:textFontWeight="500"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/routeInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfregular"
+            android:text="8 min away"
+            android:textColor="@color/gray2"
+            android:textFontWeight="200" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/routeOption1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/sheet_menu"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:src="@drawable/searchbusicon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/routeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfregular"
+                android:text="Bilkent Minibus"
+                android:textFontWeight="500"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/routeInfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfregular"
+                android:text="8 min away"
+                android:textColor="@color/gray2"
+                android:textFontWeight="200" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/routeOption1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/sheet_menu"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:src="@drawable/searchbusicon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/routeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfregular"
+                android:text="Odtü Minibus"
+                android:textFontWeight="500"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/routeInfo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfregular"
+                android:text="8 min away"
+                android:textColor="@color/gray2"
+                android:textFontWeight="200" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

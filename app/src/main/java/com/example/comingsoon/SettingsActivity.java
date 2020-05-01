@@ -2,16 +2,36 @@ package com.example.comingsoon;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
+import android.app.Activity;
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.TimePicker;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.Calendar;
+
 public class SettingsActivity extends AppCompatActivity {
 
-    BottomNavigationView bottomNav;
+    private static final String TAG = "SettingsActivity";
+
+    private LinearLayout privacySettings;
+    private BottomNavigationView bottomNav;
+    private LinearLayout notificationLayout;
+    private LinearLayout locationSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +40,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         bottomNav = findViewById( R.id.bottom_navigation);
         bottomNav.setSelectedItemId( R.id.settings);
+        notificationLayout = (LinearLayout) findViewById(R.id.notificationLayout);
 
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -37,6 +58,29 @@ public class SettingsActivity extends AppCompatActivity {
                         return true;
                 }
                 return false;
+            }
+        });
+
+        configurePrivacySettingsButton();
+        configureLocationSettingsButton();
+    }
+
+    private void configurePrivacySettingsButton() {
+        privacySettings = (LinearLayout) findViewById( R.id.privacySettings);
+        privacySettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SettingsActivity.this, PrivacySettingsActivity.class) );
+            }
+        });
+    }
+
+    private void configureLocationSettingsButton() {
+        locationSettings = (LinearLayout) findViewById( R.id.locationSettings);
+        locationSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SettingsActivity.this, LocationSettingsActivity.class) );
             }
         });
     }

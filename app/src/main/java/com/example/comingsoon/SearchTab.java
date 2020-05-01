@@ -5,13 +5,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+
+import static android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH;
 
 public class SearchTab extends AppCompatActivity {
 
         BottomNavigationView bottomNav;
+        Button route1;
+        BottomSheetDialog mapSearchDialog;
+        Button newButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +31,7 @@ public class SearchTab extends AppCompatActivity {
 
         bottomNav = findViewById( R.id.bottom_navigation);
         bottomNav.setSelectedItemId( R.id.search);
+        route1 = findViewById(R.id.route1);
 
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -39,5 +51,6 @@ public class SearchTab extends AppCompatActivity {
                 return false;
             }
         });
+
     }
 }
