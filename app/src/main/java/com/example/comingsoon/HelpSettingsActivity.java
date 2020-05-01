@@ -20,8 +20,11 @@ public class HelpSettingsActivity extends AppCompatActivity {
         configureBackButton();
     }
 
+    /**
+     * This method links back button to Settings Activity
+     */
     private void configureBackButton() {
-        backButton = (Button) findViewById( R.id.back_button4);
+        backButton = (Button) findViewById( R.id.help_back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

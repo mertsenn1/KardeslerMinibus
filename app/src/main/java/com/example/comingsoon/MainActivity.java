@@ -15,24 +15,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         configurePassengerButton();
-        configureDriverButton();
     }
 
+    /**
+     * This method links "Passenger Entry" button to Map Activity
+     */
     private void configurePassengerButton() {
         Button buttonPassenger = (Button) findViewById( R.id.passengerLoginButton);
         buttonPassenger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( MainActivity.this, SignUpActivity.class) );
-            }
-        });
-    }
-    private void configureDriverButton() {
-        Button buttonDriver = (Button) findViewById( R.id.driverLoginButton);
-        buttonDriver.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity( new Intent( MainActivity.this, SearchTab.class) );
+                startActivity( new Intent( MainActivity.this, MapActivity.class) );
             }
         });
     }

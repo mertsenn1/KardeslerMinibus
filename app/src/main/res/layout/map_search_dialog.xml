@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sfregular"
-            android:text="Kızılay Minibus"
+            android:text="@string/example_minibus_route_1"
             android:textFontWeight="500"
             android:textSize="18sp" />
 
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sfregular"
-            android:text="8 min away"
+            android:text="@string/example_duration_1"
             android:textColor="@color/gray2"
             android:textFontWeight="200" />
 
@@ -85,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sfregular"
-                android:text="Bilkent Minibus"
+                android:text="@string/example_minibus_route_2"
                 android:textFontWeight="500"
                 android:textSize="18sp" />
 
@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sfregular"
-                android:text="8 min away"
+                android:text="@string/example_duration_2"
                 android:textColor="@color/gray2"
                 android:textFontWeight="200" />
 
@@ -132,7 +132,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sfregular"
-                android:text="Odtü Minibus"
+                android:text="@string/example_minibus_route_3"
                 android:textFontWeight="500"
                 android:textSize="18sp" />
 
@@ -141,7 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sfregular"
-                android:text="8 min away"
+                android:text="@string/example_duration_3"
                 android:textColor="@color/gray2"
                 android:textFontWeight="200" />
 

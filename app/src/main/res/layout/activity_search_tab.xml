@@ -32,7 +32,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/search_view"
         android:layout_width="355dp"
         android:layout_height="33dp"
         android:layout_marginStart="24dp"
@@ -53,7 +53,7 @@
     </SearchView>
 
     <ScrollView
-        android:id="@+id/routesScrollView"
+        android:id="@+id/routes_scroll_view"
         android:layout_width="402dp"
         android:layout_height="572dp"
         android:layout_marginTop="44dp"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchView"
+        app:layout_constraintTop_toBottomOf="@id/search_view"
         app:layout_constraintVertical_bias="0.47">
 
         <LinearLayout
@@ -71,7 +71,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/allLines2"
+                android:id="@+id/all_lines"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -79,11 +79,11 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/sfregular"
                 android:gravity="start"
-                android:text="ALL LINES"
+                android:text="@string/all_lines"
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/route1"
+                android:id="@+id/route_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/scroll_button"
@@ -91,7 +91,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CEBECI - DORTYOL - BAHCELI"
+                android:text="@string/example_route_1"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -106,7 +106,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
+                android:text="@string/example_route_2"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -122,13 +122,13 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="ÇUKURAMBAR • ÜMİTKÖY"
+                android:text="@string/example_route_3"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
                 android:paddingStart="14dp"
                 android:drawableStart="@drawable/searchbusicon"
-                tools:ignore="RtlSymmetry" />
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
 
             <Button
                 android:id="@+id/route4"
@@ -139,7 +139,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CEBECI - DORTYOL - BAHCELI"
+                android:text="@string/example_route_1"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -154,7 +154,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
+                android:text="@string/example_route_2"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -170,7 +170,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="ÇUKURAMBAR • ÜMİTKÖY"
+                android:text="@string/example_route_3"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -186,7 +186,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CEBECI - DORTYOL - BAHCELI"
+                android:text="@string/example_route_1"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -201,7 +201,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
+                android:text="@string/example_route_2"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -217,7 +217,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="ÇUKURAMBAR • ÜMİTKÖY"
+                android:text="@string/example_route_3"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -233,7 +233,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CEBECI - DORTYOL - BAHCELI"
+                android:text="@string/example_route_1"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -248,7 +248,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="CAYYOLU - KONUTKENT 1/2 - SIHHIYE"
+                android:text="@string/example_route_2"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"
@@ -264,7 +264,7 @@
                 android:drawableLeft="@drawable/searchbusicon"
                 android:drawablePadding="14dp"
                 android:paddingLeft="14dp"
-                android:text="ÇUKURAMBAR • ÜMİTKÖY"
+                android:text="@string/example_route_3"
                 android:fontFamily="@font/sfregular"
                 android:textAlignment="viewStart"
                 android:textColor="@color/gray4"

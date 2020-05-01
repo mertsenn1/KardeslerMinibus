@@ -19,12 +19,15 @@ public class ChangePasswordActivity extends AppCompatActivity {
         configureBackButton();
     }
 
+    /**
+     * This method links back button to Settings Activity
+     */
     private void configureBackButton() {
         backButton = (Button) findViewById( R.id.back_button7);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( ChangePasswordActivity.this, PassengerProfileActivity.class) );
+                startActivity( new Intent( ChangePasswordActivity.this, DriverProfileActivity.class) );
             }
         });
     }

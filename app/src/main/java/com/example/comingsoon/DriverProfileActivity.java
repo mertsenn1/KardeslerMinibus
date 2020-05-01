@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class PassengerProfileActivity extends AppCompatActivity {
+public class DriverProfileActivity extends AppCompatActivity {
 
     Button backButton;
     TextView changePassword;
@@ -16,29 +16,34 @@ public class PassengerProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_passenger_profile);
+        setContentView(R.layout.activity_driver_profile);
 
         configureBackButton();
         configureChangePasswordButton();
     }
 
-
+    /**
+     * This method links back button to Settings Activity
+     */
     private void configureBackButton() {
         backButton = (Button) findViewById( R.id.back_button3);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( PassengerProfileActivity.this, SettingsActivity.class) );
+                startActivity( new Intent( DriverProfileActivity.this, SettingsActivity.class) );
             }
         });
     }
 
+    /**
+     * This method links "change password" button to Change Password Activity
+     */
     private void configureChangePasswordButton() {
         changePassword = (TextView) findViewById( R.id.changePasswordButton);
         changePassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( PassengerProfileActivity.this, ChangePasswordActivity.class) );
+                startActivity( new Intent( DriverProfileActivity.this, ChangePasswordActivity.class) );
             }
         });
     }

@@ -6,11 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".NavigationFragment"
     android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_marginBottom="58dp"
-    >
+    android:layout_marginBottom="58dp">
 
     <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView"
+        android:id="@+id/auto_complete_text_view"
         android:layout_width="365sp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
@@ -18,7 +17,7 @@
         android:elevation="5sp"
         android:ems="10"
         android:fontFamily="@font/sfregular"
-        android:hint="Enter Place Here"
+        android:hint="@string/enter_place_here"
         android:textSize="15sp"
         tools:layout_editor_absoluteX="23dp"
         tools:layout_editor_absoluteY="27dp" />

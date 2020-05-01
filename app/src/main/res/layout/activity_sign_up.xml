@@ -9,20 +9,21 @@
 
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.481">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.994">
 
         <EditText
-            android:id="@+id/nameText"
+            android:id="@+id/signup_name_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -33,28 +34,30 @@
             android:elevation="5sp"
             android:ems="10"
             android:fontFamily="@font/sfregular"
-            android:hint="Name"
+            android:hint="@string/name"
+            android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
-            android:textColorLink="#3ACCE1"
+            android:textColorLink="@color/highlight"
             android:textSize="15sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="300dp" />
 
         <EditText
-            android:id="@+id/emailText2"
+            android:id="@+id/signup_email_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
+            android:autofillHints=""
             android:background="@drawable/input_field"
             android:elevation="5sp"
             android:ems="10"
             android:fontFamily="@font/sfregular"
-            android:hint="Email"
+            android:hint="@string/driver_code"
             android:inputType="textEmailAddress"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
@@ -63,7 +66,7 @@
             tools:layout_editor_absoluteY="308dp" />
 
         <EditText
-            android:id="@+id/passwordText3"
+            android:id="@+id/signup_password_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -74,18 +77,18 @@
             android:elevation="5sp"
             android:ems="10"
             android:fontFamily="@font/sfregular"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="15sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="352dp" />
-
+            tools:layout_editor_absoluteY="352dp"
+            android:importantForAutofill="no" />
 
 
         <EditText
-            android:id="@+id/confirmPasswordText"
+            android:id="@+id/signup_password_confirm_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -96,43 +99,44 @@
             android:elevation="5sp"
             android:ems="10"
             android:fontFamily="@font/sfregular"
-            android:hint="Confirm Password"
+            android:hint="@string/confirm_password"
             android:inputType="textPassword"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="15sp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="405dp" />
+            tools:layout_editor_absoluteY="405dp"
+            android:importantForAutofill="no" />
 
     </LinearLayout>
 
-
     <Button
-        android:id="@+id/continueButton2"
+        android:id="@+id/signup_continue_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/blue_button"
         android:fontFamily="@font/sfsemibold"
         android:paddingTop="16dp"
         android:paddingBottom="16dp"
-        android:text="CONTINUE"
+        android:text="@string/continue_button"
         android:textColor="@color/theme"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,30 +146,30 @@
         app:layout_constraintVertical_bias="0.057">
 
         <Button
-            android:id="@+id/signinButton2"
+            android:id="@+id/signin_switch_button"
             android:layout_width="wrap_content"
             android:layout_height="40sp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
             android:layout_marginLeft="24dp"
+            android:layout_marginTop="2dp"
             android:layout_marginRight="24dp"
+            android:layout_marginBottom="2dp"
             android:background="@drawable/button_signup"
             android:fontFamily="@font/sfsemibold"
-            android:text="SIGN IN"
+            android:text="@string/sign_in"
             android:textColor="@color/gray3"
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/signupButton2"
+            android:id="@+id/signup_button"
             android:layout_width="92dp"
             android:layout_height="40sp"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
             android:layout_marginLeft="24dp"
+            android:layout_marginTop="2dp"
             android:layout_marginRight="24dp"
+            android:layout_marginBottom="2dp"
             android:background="@drawable/button_signin"
             android:fontFamily="@font/sfsemibold"
-            android:text="SIGN UP"
+            android:text="@string/sign_up"
             android:textColor="@color/theme"
             android:textSize="12sp" />
 

@@ -19,8 +19,11 @@ public class LocationSettingsActivity extends AppCompatActivity {
         configureBackButton();
     }
 
+    /**
+     * This method links back button to Settings Activity
+     */
     private void configureBackButton() {
-        backButton = (Button) findViewById( R.id.back_button2);
+        backButton = (Button) findViewById( R.id.location_back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

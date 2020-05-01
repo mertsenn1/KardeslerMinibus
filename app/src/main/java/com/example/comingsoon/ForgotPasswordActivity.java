@@ -19,9 +19,11 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         configureBackButton();
     }
 
-
+    /**
+     * This method links back button to Sign In Activity
+     */
     private void configureBackButton() {
-        backButton = (Button) findViewById( R.id.back_button6);
+        backButton = (Button) findViewById( R.id.forgot_password_back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

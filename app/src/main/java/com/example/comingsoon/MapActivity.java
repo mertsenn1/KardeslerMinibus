@@ -1,7 +1,6 @@
 package com.example.comingsoon;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -15,11 +14,8 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.MenuItem;
-import android.view.inputmethod.EditorInfo;
 import android.widget.AutoCompleteTextView;
-import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -29,9 +25,6 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-
-import static android.view.inputmethod.EditorInfo.*;
 
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -64,7 +57,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
         bottomNav = findViewById( R.id.bottom_navigation);
         bottomNav.setSelectedItemId( R.id.map);
-        autoCompleteTextView = findViewById( R.id.autoCompleteTextView);
+        autoCompleteTextView = findViewById( R.id.auto_complete_text_view);
 
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

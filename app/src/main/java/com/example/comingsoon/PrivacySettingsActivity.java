@@ -19,8 +19,11 @@ public class PrivacySettingsActivity extends AppCompatActivity {
         configureBackButton();
     }
 
+    /**
+     * This method links back button to Settings Activity
+     */
     private void configureBackButton() {
-        backButton = (Button) findViewById( R.id.back_button);
+        backButton = (Button) findViewById( R.id.privacy_back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

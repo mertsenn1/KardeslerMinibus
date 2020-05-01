@@ -7,7 +7,7 @@
     tools:context=".LocationSettingsActivity">
 
     <LinearLayout
-        android:id="@+id/locationSettingsLabel"
+        android:id="@+id/location_settings_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -24,26 +24,26 @@
         app:layout_constraintVertical_bias="0.051">
 
         <Button
-            android:id="@+id/back_button2"
+            android:id="@+id/location_back_button"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/back2" />
 
         <TextView
-            android:id="@+id/locationLabel"
+            android:id="@+id/location_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sfsemibold"
             android:gravity="center_horizontal"
-            android:text="Location Settings"
+            android:text="@string/location_title"
             android:textAlignment="textStart"
             android:textFontWeight="600"
             android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/locationLayout"
+        android:id="@+id/location_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/locationSettingsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/location_settings_label"
         app:layout_constraintVertical_bias="0.078"
         app:layout_goneMarginEnd="8dp">
 
@@ -83,7 +83,7 @@
                     android:fontFamily="@font/sfregular"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
-                    android:text="Ankara"
+                    android:text="@string/city_ankara"
                     android:textAlignment="textStart"
                     android:textAllCaps="false"
                     android:textColor="@color/gray3"
@@ -97,7 +97,7 @@
                     android:fontFamily="@font/sfregular"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
-                    android:text="İstanbul"
+                    android:text="@string/city_istanbul"
                     android:textAlignment="textStart"
                     android:textAllCaps="false"
                     android:textColor="@color/gray3"
