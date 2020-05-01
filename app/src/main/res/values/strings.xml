@@ -26,4 +26,5 @@
     <string name="location_subtitle">Change your city</string>
 
     <string name="todo">TODO</string>
+    <string name="name">Name</string>
 </resources>

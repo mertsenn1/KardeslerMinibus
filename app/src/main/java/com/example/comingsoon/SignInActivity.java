@@ -7,10 +7,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class SignInActivity extends AppCompatActivity {
 
     Button signupButton;
+    Button backButton;
+    TextView forgotPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +32,39 @@ public class SignInActivity extends AppCompatActivity {
         });
 
         configureContinueButton();
+        configureBackButton();
+        configureForgotPasswordButton();
     }
 
     private void configureContinueButton() {
-        Button buttonContinue = (Button) findViewById( R.id.continueButton2);
+        Button buttonContinue = (Button) findViewById( R.id.continueButton);
         buttonContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity( new Intent( SignInActivity.this, MapActivity.class) );
             }
         });
+
     }
+
+    private void configureBackButton() {
+        backButton = (Button) findViewById( R.id.signin_back_button);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SignInActivity.this, MainActivity.class) );
+            }
+        });
+    }
+
+    private void configureForgotPasswordButton() {
+        forgotPassword = (TextView) findViewById( R.id.forgot_password);
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SignInActivity.this, ForgotPasswordActivity.class) );
+            }
+        });
+    }
+
 }

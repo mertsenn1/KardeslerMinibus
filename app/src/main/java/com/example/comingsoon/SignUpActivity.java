@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class SignUpActivity extends AppCompatActivity {
 
+    Button backButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,30 @@ public class SignUpActivity extends AppCompatActivity {
                 Intent intent = new Intent( SignUpActivity.this, SignInActivity.class);
                 startActivity( intent);
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+            }
+        });
+
+        configureBackButton();
+        configureContinueButton();
+    }
+
+    private void configureContinueButton() {
+        Button buttonContinue = (Button) findViewById( R.id.continueButton2);
+        buttonContinue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SignUpActivity.this, MapActivity.class) );
+            }
+        });
+
+    }
+
+    private void configureBackButton() {
+        backButton = (Button) findViewById( R.id.signup_back_button);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SignUpActivity.this, MainActivity.class) );
             }
         });
     }

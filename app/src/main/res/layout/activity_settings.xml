@@ -58,7 +58,8 @@
             android:background="@drawable/search_settings" />
 
         <Button
-            android:layout_width="25dp"
+            android:id="@+id/profile_button"
+            android:layout_width="28dp"
             android:layout_height="25dp"
             android:background="@drawable/profile" />
     </LinearLayout>
@@ -281,6 +282,7 @@
 
             <LinearLayout
                 android:id="@+id/helpSettings"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="5dp"

@@ -47,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="@drawable/round_corners"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -69,19 +70,40 @@
             android:layout_height="wrap_content"
             android:background="@drawable/round_corners">
 
-            <Button
-                android:id="@+id/city_ankara"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/scroll_button"
-                android:fontFamily="@font/sfregular"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:text="Ankara"
-                android:textAlignment="textStart"
-                android:textAllCaps="false"
-                android:textColor="@color/gray3"
-                android:textSize="14dp" />
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/city_ankara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scroll_button"
+                    android:fontFamily="@font/sfregular"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Ankara"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="@color/gray3"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/city_istanbul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/scroll_button"
+                    android:fontFamily="@font/sfregular"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="İstanbul"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="@color/gray3"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
 
         </ScrollView>
     </LinearLayout>

@@ -32,6 +32,8 @@ public class SettingsActivity extends AppCompatActivity {
     private BottomNavigationView bottomNav;
     private LinearLayout notificationLayout;
     private LinearLayout locationSettings;
+    private Button profileButton;
+    private LinearLayout helpSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +65,8 @@ public class SettingsActivity extends AppCompatActivity {
 
         configurePrivacySettingsButton();
         configureLocationSettingsButton();
+        configureProfileButton();
+        configureHelpButton();
     }
 
     private void configurePrivacySettingsButton() {
@@ -84,4 +88,25 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void configureProfileButton() {
+        profileButton = (Button) findViewById( R.id.profile_button);
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SettingsActivity.this, PassengerProfileActivity.class) );
+            }
+        });
+    }
+
+    private void configureHelpButton() {
+        helpSettings = (LinearLayout) findViewById( R.id.helpSettings);
+        helpSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( SettingsActivity.this, HelpSettingsActivity.class) );
+            }
+        });
+    }
+
 }
