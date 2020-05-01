@@ -16,3 +16,9 @@ I added the bottom navigation view to the user interface.
 
 # ~ 29.04.2020 ~
 I merged the map activity that Arda designed with the project.
+
+# ~ 30.04.2020 ~
+I merged the settings activity that Ege designed with the project and added sub-activities.
+
+# ~ 1.05.2020 ~
+Finalized version of passenger UI v1 is uploaded.
