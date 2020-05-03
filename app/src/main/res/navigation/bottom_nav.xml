@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/searchTab">
+    <activity
+        android:id="@+id/searchTab"
+        android:name="com.example.comingsoon.SearchTab"
+        android:label="activity_search_tab"
+        tools:layout="@layout/activity_search_tab" />
+    <activity
+        android:id="@+id/mapActivity"
+        android:name="com.example.comingsoon.MapActivity"
+        android:label="activity_map"
+        tools:layout="@layout/activity_map" />
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.comingsoon.SettingsActivity"
+        android:label="activity_settings"
+        tools:layout="@layout/activity_settings" />
+</navigation>
