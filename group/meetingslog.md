@@ -22,5 +22,19 @@ Bahadir - Driver userface( profile part design )
 ****
 ### Meeting ~ (26/04/2020, 1 hour)
 ****
+**Present:**
+Every member
+
+**Discussion:** 
 Tasks distributed in previous meeting are nearly completed. Everyone has done its part. Some changes such as fonts of text are to be made.
+
+
+****
+### Meeting ~ (01/05/2020, 1 hour)
+****
+**Present:**
+Every member
+
+**Discussion:** 
+Our project's UI part is completed. We decided to start developing back-end. We distributed the tasks among us. 
 
