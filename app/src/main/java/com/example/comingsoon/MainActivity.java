@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         configurePassengerButton();
+        configureDriverButton();
     }
 
     /**
@@ -26,6 +27,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity( new Intent( MainActivity.this, MapActivity.class) );
+            }
+        });
+    }
+
+    /**
+     * This method links "Driver Login" button to Sign In Activity
+     */
+    private void configureDriverButton() {
+        Button buttonPassenger = (Button) findViewById( R.id.driverLoginButton);
+        buttonPassenger.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( MainActivity.this, SignInActivity.class) );
             }
         });
     }

@@ -26,14 +26,14 @@ public class SignInActivity extends AppCompatActivity {
     }
 
     /**
-     * This method links "Continue" button to Map Activity
+     * This method links "Continue" button to Driver Map Activity
      */
     private void configureContinueButton() {
         Button buttonContinue = (Button) findViewById( R.id.signin_continue_button);
         buttonContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( SignInActivity.this, MapActivity.class) );
+                startActivity( new Intent( SignInActivity.this, DriverMapActivity.class) );
             }
         });
 

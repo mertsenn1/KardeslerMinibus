@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/journey"
+        android:icon="@drawable/profilereg"
+        android:iconTint="@color/gray3"
+        />
+
+    <item
+        android:id="@+id/map_driver"
+        android:icon="@drawable/passengerreg"
+        android:iconTint="@color/gray3"
+        />
+
+    <item
+        android:id="@+id/driver_settings"
+        android:icon="@drawable/settingsreg"
+        android:iconTint="@color/gray3"
+        />
+</menu>

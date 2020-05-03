@@ -35,7 +35,7 @@
     </LinearLayout>
 
     <ScrollView
-        android:id="@+id/sttins_search_scroll_view"
+        android:id="@+id/settins_search_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -55,13 +55,14 @@
             android:paddingLeft="8dp"
             android:paddingRight="8dp">
 
+            <!-- Input view will be added -->
             <LinearLayout
                 android:id="@+id/notification_settings"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clickable="true"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/round_corners"
-                android:clickable="true"
                 android:focusable="true"
                 android:orientation="horizontal">
 
@@ -79,7 +80,6 @@
                     android:id="@+id/notification_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:clickable="true"
                     android:orientation="vertical"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp">

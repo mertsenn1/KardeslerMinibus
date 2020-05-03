@@ -78,7 +78,19 @@
     <string name="example_minibus_route_3">Odtü Minibus</string>
     <string name="example_duration_3">15 min away</string>
 
+    <!-- Driver Vehicle/Route Info -->
+    <string name="route_specification">Choose your route</string>
+    <string name="your_plate_number">Your plate number</string>
+
+    <string-array name="route_spinner">
+        <item>Select your route</item>
+        <item>Kızılay - Bilkent Route</item>
+        <item>Bilkent - Keçiören Route</item>
+        <item>Odtü - Sıhhiye Route</item>
+    </string-array>
+
     <!-- Extra -->
     <string name="todo">TODO</string>
+
 
 </resources>

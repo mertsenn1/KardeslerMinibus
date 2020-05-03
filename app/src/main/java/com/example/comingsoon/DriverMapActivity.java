@@ -26,7 +26,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
+public class DriverMapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private final int MIN_TIME = 0;
     private final int MIN_DISTANCE = 1;
@@ -53,24 +53,23 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
+        setContentView(R.layout.activity_driver_map);
 
-        bottomNav = findViewById(R.id.bottom_navigation);
-        bottomNav.setSelectedItemId(R.id.map);
-        autoCompleteTextView = findViewById(R.id.auto_complete_text_view);
+        bottomNav = findViewById(R.id.driver_bottom_navigation);
+        bottomNav.setSelectedItemId(R.id.map_driver);
 
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.search:
-                        startActivity(new Intent(getApplicationContext(), SearchTab.class));
+                    case R.id.journey:
+                        startActivity(new Intent(getApplicationContext(), JourneyInfoActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.map:
                         return true;
-                    case R.id.settings:
-                        startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+                    case R.id.driver_settings:
+                        startActivity(new Intent(getApplicationContext(), DriverSettingsActivity.class));
                         overridePendingTransition(0, 0);
                         return true;
                 }
