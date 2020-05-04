@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777685752099",
+    "firebase_url": "https://coming-soon-274c0.firebaseio.com",
+    "project_id": "coming-soon-274c0",
+    "storage_bucket": "coming-soon-274c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777685752099:android:3c53dd3710872f22ce1496",
+        "android_client_info": {
+          "package_name": "com.example.comingsoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777685752099-cefe1sevrf6b6nk1simsif1i3e8285p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.comingsoon",
+            "certificate_hash": "b71980bbf6b9882627ad74b771e5fb864320bff9"
+          }
+        },
+        {
+          "client_id": "777685752099-n5tlf3g1tb3ihmmi978pmskc386l3poh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsV0LSa-5-VK6V_EyicLX3eC19PCwH9ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777685752099-n5tlf3g1tb3ihmmi978pmskc386l3poh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
