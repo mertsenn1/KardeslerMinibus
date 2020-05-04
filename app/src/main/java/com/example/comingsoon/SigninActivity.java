@@ -55,7 +55,7 @@ public class SignInActivity extends AppCompatActivity {
         buttonContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    driverLogin();
+                driverLogin();
             }
         });
 
@@ -169,10 +169,9 @@ public class SignInActivity extends AppCompatActivity {
             if (task.isSuccessful()) {
                 if (mAuth.getCurrentUser().isEmailVerified()) {
                     // For now it directs the user to driver profile activity
-                    Intent intent = new Intent(SignInActivity.this, DriverProfileActivity.class);
-                    // if the drivers press the back button, they do not turn back to login page.
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    Intent intent = new Intent(SignInActivity.this, DriverMapActivity.class);
                     startActivity(intent);
+                    finish();
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Please verify your email address", Toast.LENGTH_SHORT).show();

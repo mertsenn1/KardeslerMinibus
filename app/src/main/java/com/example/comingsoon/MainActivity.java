@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,15 +30,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     /**
-     * This method links "Driver login" button to Sign In Activity
+     * This method links "Driver Login" button to Sign In Activity
      */
-    private void configureDriverButton(){
-        Button buttonDriver = (Button) findViewById( R.id.driverLoginButton);
-        buttonDriver.setOnClickListener( new View.OnClickListener(){
+    private void configureDriverButton() {
+        Button buttonPassenger = (Button) findViewById( R.id.driverLoginButton);
+        buttonPassenger.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick( View view){
-                startActivity( new Intent( MainActivity.this, SignInActivity.class));
+            public void onClick(View view) {
+                startActivity( new Intent( MainActivity.this, SignInActivity.class) );
             }
         });
     }

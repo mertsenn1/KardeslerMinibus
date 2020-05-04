@@ -166,7 +166,6 @@ public class SignUpActivity extends AppCompatActivity {
         // methods
         @Override
         public void onComplete(@NonNull Task task) {
-            progressBar.setVisibility( View.GONE);
 
             if ( task.isSuccessful() ){
                 Driver driver = new Driver( name, email);
@@ -177,17 +176,18 @@ public class SignUpActivity extends AppCompatActivity {
                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
+                                progressBar.setVisibility( View.GONE);
+
                                 // if registration is successful, directs user to sign in page.
                                 if ( task.isSuccessful() ) {
                                     mAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()) {
-                                                Toast.makeText(SignUpActivity.this, "Registered succesfully, verification mail sent to your address", Toast.LENGTH_SHORT).show();
-                                                Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
-                                                // if the drivers press the back button, they do not turn back to sign up page.
-                                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                                Toast.makeText(SignUpActivity.this, "Registered succesfully, verification mail sent to your email address", Toast.LENGTH_SHORT).show();
+                                                Intent intent = new Intent(SignUpActivity.this, DriverInformationActivity.class);
                                                 startActivity(intent);
+                                                finish();
                                             } else {
                                                 Toast.makeText(SignUpActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                             }
@@ -202,6 +202,7 @@ public class SignUpActivity extends AppCompatActivity {
                         });
             }
             else{
+                progressBar.setVisibility( View.GONE);
                 Toast.makeText( SignUpActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
             }
         }

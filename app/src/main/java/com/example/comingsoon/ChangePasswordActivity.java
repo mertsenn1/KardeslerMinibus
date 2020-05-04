@@ -120,8 +120,8 @@ public class ChangePasswordActivity extends AppCompatActivity {
                                         progressBar.setVisibility( View.GONE);
                                         Toast.makeText( ChangePasswordActivity.this, "Password has been changed", Toast.LENGTH_SHORT).show();
                                         Intent intent = new Intent( ChangePasswordActivity.this, DriverProfileActivity.class);
-                                        intent.addFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                         startActivity( intent);
+                                        finish();
 
                                     }
                                     else{
@@ -135,7 +135,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
                             progressBar.setVisibility( View.GONE);
                             Toast.makeText( ChangePasswordActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
-            }
-    });
+                    }
+                });
             }}
     }}

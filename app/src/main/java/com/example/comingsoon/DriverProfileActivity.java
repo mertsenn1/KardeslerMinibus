@@ -39,7 +39,7 @@ public class DriverProfileActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity( new Intent( DriverProfileActivity.this, SettingsActivity.class) );
+                startActivity( new Intent( DriverProfileActivity.this, DriverSettingsActivity.class) );
             }
         });
     }
@@ -79,8 +79,8 @@ public class DriverProfileActivity extends AppCompatActivity {
             finish();
             Toast.makeText( getApplicationContext(), "Signed out", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent( DriverProfileActivity.this, MainActivity.class);
-            intent.addFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity( intent);
+            finish();
         }
     }
 }
