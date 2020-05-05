@@ -75,6 +75,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             progressBar.setVisibility(View.VISIBLE);
 
             if (TextUtils.isEmpty( userEmail)){
+                progressBar.setVisibility( View.GONE);
                 Toast.makeText( ForgotPasswordActivity.this, "Please enter your registered email", Toast.LENGTH_SHORT).show();
             }
             else{
