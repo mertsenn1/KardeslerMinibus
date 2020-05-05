@@ -8,10 +8,10 @@ On this page I will keep a weekly record of what I have done for the CS102 group
 ### ~ 24-27 April ~
 This week I learn how to use android studio (in basic level), how intent algorithm works and how xml code affects actual design. I also made a basic app that stores an information and prints it in the other page for the program profile page (includes java code). I also worked out, how a imagebutton icon made and how to use it. Now I am considering an (intent-activity) flow how to merge all other pieces. 
 
-### ~ date ~
-This week I helped abc brainstorm ideas for...
+### ~ 27 April - 1 May ~
+More on Android Studio... I also study about how to use firebase and location sharing in realtime...
 
-### ~ date ~
+### ~ 1 May - 8 May ~
 blah, blah, blah...
 
 ****
