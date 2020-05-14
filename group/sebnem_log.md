@@ -25,3 +25,6 @@ Finalized version of passenger UI v1 is uploaded.
 
 # ~ 3.05.2020 ~
 Finalized version of  UI v1 is uploaded (including driver UI).
+
+# ~ 14.05.2020 ~
+After my last log, finding minibusses on a spesific route feature is added. I did minor changes to UI including splash screen and edit text configurations. 
