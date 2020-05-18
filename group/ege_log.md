@@ -7,10 +7,9 @@ On this page I will keep a weekly record of what I have done for the CS102 group
 
 ### ~ 27.04.2020 ~
 This week I learnt how to use "xml programming language" and "Android Studio tool" in detail. Then, I did layouts (frontend) for Settings Page and Bottom Navigational Bar for the application 'Coming Soon'.
-### ~ date ~
-This week I helped abc brainstorm ideas for...
+### ~ 18.05.2020 ~
+In the past two week, I learnt how to use new Google Places API. I got Autocompleted Suggestions from Google Client for Searchbars in map activities. I learnt how to move camera in Map Activity and to add markers on those suggested places. I also designed an icon for App and optimized some bugs. 
 
-### ~ date ~
-blah, blah, blah...
+
 
 ****
