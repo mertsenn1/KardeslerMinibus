@@ -22,4 +22,4 @@ This week I learned how to use Firebase after my fellow teammates implemented th
 
 ### ~ 16.05.2020 date ~
 
-## This week I managed to implement anonymous login for the passengers. This will allow them to easily use the application without us tracking their data. I also made it possible for the passenger to select a certain route and visualizing the minibuses on the selected route. With this final addition, the core functionality of the app is almost done with a little bits and pieces to consider.
+This week I managed to implement anonymous login for the passengers. This will allow them to easily use the application without us tracking their data. I also made it possible for the passenger to select a certain route and visualizing the minibuses on the selected route. With this final addition, the core functionality of the app is almost done with a little bits and pieces to consider.
