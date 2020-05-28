@@ -11,7 +11,7 @@ time without them having to wait for long durations for their minibus of choice.
 move slowly along the roads in order to collect passengers, sharing their live locations would enable the users to find them faster. 
 This, in turn, would also solve traffic jam problems caused by minibus drivers searching for passengers.
 
-Project Current Status: We implemented all of the features that we planned. The project is functioning as intended.
+Project Current Status: We implemented the majority of the features that we planned. The project is functioning as intended.
 
 Contributors
 Mehmet Bahadır Erkan - Organising the location markers according to user's realtime data by using Google Firebase. 
