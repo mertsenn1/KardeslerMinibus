@@ -16,7 +16,8 @@ Project Current Status: We implemented all of the features that we planned. The 
 Contributors
 Mehmet Bahadır Erkan - Organising the location markers according to user's realtime data by using Google Firebase. 
 
-Mert Şen - Implementing sign-in, sign-up logic by using Google Firebase, getting duration between the user and the bus by using Google Directions API, and putting it to route adapter.
+Mert Şen - Implementing sign-in, sign-up logic by using Google Firebase, getting duration between the user and the bus by using 
+Google Directions API, and putting it to route adapter.
 
 Ege Demirkırkan - Recieving autocompleted places suggestions in search view by using Google Places API. 
 
