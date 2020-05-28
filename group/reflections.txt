@@ -5,20 +5,18 @@ How to use technologies to find solutions for possible problems. Each one of us 
 However, with this project, we learn how to handle with a problem, which will always be useful for us in future in any field.
 
 What did we dislike about project work?
-Since recent Google softwares are updated frequently, it is hard to keep track of current patch of the software.
+Since recent Google softwares are updated frequently, it is hard to keep track of current patch of the software. Moreover, since we were new to use of Github, we had difficulties while changing the code simultaneously. However, we managed to overcome these difficulties.
 
 Most difficult aspects 
 When we look at tutorials and examples, we came across with different data types which used in specific functions and is not familiar, 
-though it is hard to understand what these data types do in first glance, we also handle that over time.
+though it is hard to understand what these data types do in first glance, we also handle that over time. Furthermore, while coding a feature, it requires the consideration of what would be the best and most efficient way to solve this particular problem. There are usually several ways of coding to get the same result. However, we intended to find the quickest and most efficient way to code a specific problem and we sometimes had difficulties in achieving this.
  
 What would we do differently if we had start over again? 
 Since we have experienced about how to use internet to find solutions to the problems, which problems worth to strive more and so on; 
 we would use the technology so that we would spend less time and do the project more efficiently.
  
 How much time did we spend on it? 
-We alocate our time 
- 
- 
+Every person of the group was aware of his/her responsibility. Each one of us allocated enough time to make our project working. We planned what to do and stick to our plan.
  
 Are we proud of what we have achieved?
-Yes, we are proud of what we have achieved!
+Yes, we are proud of what we have achieved! We had concerns at the beginning of the project, but we believed that we can achieve our goals specific to our project. Now, considering the point we came, we learned a lot, made our application working as planned and more importantly, we gained experience!
