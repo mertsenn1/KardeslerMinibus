@@ -14,7 +14,7 @@ This, in turn, would also solve traffic jam problems caused by minibus drivers s
 Project Current Status: We implemented the majority of the features that we planned. The project is functioning as intended.
 
 Contributors
-Mehmet Bahadır Erkan - Organising the location markers according to user's realtime data by using Google Firebase. 
+Mehmet Bahadır Erkan - Retrieving and uploading data to online database by using Google Firebase. Organising the location markers according to user's realtime data by using Google Firebase. Drawing different routes by using Google Maps. By using json files of the routes, helping to store routes encrypted.
 
 Mert Şen - Implementing sign-in, sign-up logic by using Google Firebase, getting duration between the user and the bus by using 
 Google Directions API, and putting it to route adapter.
