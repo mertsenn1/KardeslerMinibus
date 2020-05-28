@@ -31,3 +31,7 @@ Google Play Services Maps 17.0.0
 Google Play Services Location 17.0.0
 Google Places Libraries 2.2.0
 Google Directions Libraries 2.2.0
+
+***************************************************************************
+The virtual device to run the project in android studio must have api > 26. 
+***************************************************************************
