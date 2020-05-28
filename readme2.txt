@@ -23,7 +23,9 @@ Ege Demirkırkan - Recieving autocompleted places suggestions in search view by 
 
 Şebnem Türkoğlu - Drawing a polyline between two chosen location by using Google Directions API.
 
-Arda Atahan İbiş - Implementing the routes in map activity by using Google Directions API.
+Arda Atahan İbiş - Implementing the map activity for both the driver and the passenger. Encrypting and storing the 
+routes in a csv file using Google Directions API. Writing a method to decrypt the encrypted routes and show them on the 
+map as a polyline with relevant styling. Implementing anonymous login for the passengers.
 
 Used Softwares/Libraries
 Firebase Database 19.3.0
