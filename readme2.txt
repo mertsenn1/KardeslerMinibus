@@ -21,7 +21,9 @@ Google Directions API, and putting it to route adapter.
 
 Ege Demirkırkan - Recieving autocompleted places suggestions in search view by using Google Places API. 
 
-Şebnem Türkoğlu - Drawing a polyline between two chosen location by using Google Directions API.
+Şebnem Türkoğlu - Designing the general UI of the app. Allowing driver to see passengers on their route.
+Allowing passengers to find route that goes through both the user's own location and the chosen destination.
+Sending notification to the user when the chosen minibus is in a certain range (according to expected arrival time of the bus).
 
 Arda Atahan İbiş - Implementing the map activity for both the driver and the passenger. Encrypting and storing the 
 routes in a csv file using Google Directions API. Writing a method to decrypt the encrypted routes and show them on the 
