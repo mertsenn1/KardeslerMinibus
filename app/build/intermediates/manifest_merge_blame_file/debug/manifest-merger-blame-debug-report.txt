@@ -1,0 +1,301 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.comingsoon"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+19-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:13:5-98
+19-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:13:22-95
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:10:5-76
+20-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:10:22-73
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:15:5-78:19
+27        android:name="com.example.comingsoon.App"
+27-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:16:9-28
+28        android:allowBackup="true"
+28-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:17:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\130f40789f3addc98db185e1dbe16726\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:18:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:19:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:20:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:21:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:22:9-40
+38        <activity android:name="com.example.comingsoon.NotificationSettingsActivity" />
+38-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:23:9-75
+38-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:23:19-63
+39        <activity android:name="com.example.comingsoon.SplashScreen" >
+39-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:24:9-30:20
+39-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:24:19-47
+40            <intent-filter>
+40-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:25:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:26:17-69
+41-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:28:17-77
+43-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.comingsoon.DriverSettingsActivity" />
+46-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:31:9-60
+46-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:31:19-57
+47        <activity android:name="com.example.comingsoon.JourneyInfoActivity" />
+47-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:32:9-57
+47-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:32:19-54
+48        <activity
+48-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:33:9-35:55
+49            android:name="com.example.comingsoon.DriverMapActivity"
+49-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:34:13-46
+50            android:windowSoftInputMode="adjustPan" />
+50-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:35:13-52
+51        <activity android:name="com.example.comingsoon.DriverInformationActivity" />
+51-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:36:9-63
+51-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:36:19-60
+52        <activity android:name="com.example.comingsoon.ChangePasswordActivity" />
+52-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:37:9-60
+52-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:37:19-57
+53        <activity android:name="com.example.comingsoon.ForgotPasswordActivity" />
+53-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:38:9-60
+53-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:38:19-57
+54        <activity android:name="com.example.comingsoon.HelpSettingsActivity" />
+54-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:39:9-58
+54-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:39:19-55
+55        <activity android:name="com.example.comingsoon.DriverProfileActivity" />
+55-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:40:9-59
+55-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:40:19-56
+56        <activity android:name="com.example.comingsoon.RouteOptionsActivity" />
+56-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:41:9-58
+56-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:41:19-55
+57        <activity android:name="com.example.comingsoon.PrivacySettingsActivity" />
+57-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:42:9-61
+57-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:42:19-58
+58        <activity android:name="com.example.comingsoon.SettingsActivity" />
+58-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:43:9-54
+58-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:43:19-51
+59        <activity
+59-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:44:9-47:55
+60            android:name="com.example.comingsoon.MapActivity"
+60-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:45:13-40
+61            android:label="Search here"
+61-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:46:13-40
+62            android:windowSoftInputMode="adjustPan" />
+62-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:47:13-52
+63        <!--
+64             The API key for Google Maps-based APIs is defined as a string resource.
+65             (See the file "res/values/google_maps_api.xml").
+66             Note that the API key is linked to the encryption key used to sign the APK.
+67             You need a different API key for each encryption key, including the release key that is used to
+68             sign the APK for publishing.
+69             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+70        -->
+71        <meta-data
+71-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:56:9-58:55
+72            android:name="com.google.android.geo.API_KEY"
+72-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:57:13-58
+73            android:value="@string/google_maps_key" />
+73-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:58:13-52
+74
+75        <activity
+75-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:60:9-62:52
+76            android:name="com.example.comingsoon.SignInActivity"
+76-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:61:13-43
+77            android:screenOrientation="portrait" />
+77-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:62:13-49
+78        <activity
+78-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:63:9-65:52
+79            android:name="com.example.comingsoon.SignUpActivity"
+79-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:64:13-43
+80            android:screenOrientation="portrait" />
+80-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:65:13-49
+81        <activity
+81-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:66:9-68:52
+82            android:name="com.example.comingsoon.SearchTab"
+82-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:67:13-38
+83            android:screenOrientation="portrait" />
+83-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:68:13-49
+84        <activity
+84-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:69:9-77:20
+85            android:name="com.example.comingsoon.MainActivity"
+85-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:70:13-41
+86            android:screenOrientation="portrait" >
+86-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:71:13-49
+87            <intent-filter>
+87-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:72:13-76:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:26:17-69
+88-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:26:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:75:17-76
+90-->C:\Users\mcam5\AndroidStudioProjects\Coming Soon\app\src\main\AndroidManifest.xml:75:27-73
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:14:9-20:20
+94            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+94-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:15:13-91
+95            android:exported="false"
+95-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:16:13-37
+96            android:label="@string/places_autocomplete_label"
+96-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:17:13-62
+97            android:theme="@style/PlacesAutocompleteOverlay"
+97-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:18:13-61
+98            android:windowSoftInputMode="adjustResize" >
+98-->[com.google.android.libraries.places:places:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\d9279a281244ef01804f07828c5d5694\jetified-places-2.2.0\AndroidManifest.xml:19:13-55
+99        </activity> <!-- Needs to be explicitly declared on P+ -->
+100        <uses-library
+100-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+101            android:name="org.apache.http.legacy"
+101-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+102            android:required="false" />
+102-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c9bf6247556613575e6d919deccf34bf\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+103
+104        <service
+104-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+108            <meta-data
+108-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+109-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-database:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\7aeec03db8e9903de43890a19ff76d52\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+112-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+114        </service>
+115
+116        <activity
+116-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+117            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+117-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+121            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+121-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\2674fe75f49334922335dfcfe6dd5c05\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+123
+124        <meta-data
+124-->[com.google.maps.android:android-maps-utils:1.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\e134a028f7b25e85c7037ec6d23d8b86\jetified-android-maps-utils-1.1.0\AndroidManifest.xml:12:9-14:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.maps.android:android-maps-utils:1.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\e134a028f7b25e85c7037ec6d23d8b86\jetified-android-maps-utils-1.1.0\AndroidManifest.xml:13:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.maps.android:android-maps-utils:1.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\e134a028f7b25e85c7037ec6d23d8b86\jetified-android-maps-utils-1.1.0\AndroidManifest.xml:14:13-66
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+130            android:authorities="com.example.comingsoon.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\c972b5801661d054e8b332d4d4133f84\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\ae7da85b9f53d8a3ce0b2d66e0f66900\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\ae7da85b9f53d8a3ce0b2d66e0f66900\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\ae7da85b9f53d8a3ce0b2d66e0f66900\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\ae7da85b9f53d8a3ce0b2d66e0f66900\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+138
+139        <provider
+139-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\03390efd66f5eae5b821fceb55dd5883\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+140            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\03390efd66f5eae5b821fceb55dd5883\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+141            android:authorities="com.example.comingsoon.lifecycle-process"
+141-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\03390efd66f5eae5b821fceb55dd5883\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+142            android:exported="false"
+142-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\03390efd66f5eae5b821fceb55dd5883\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+143            android:multiprocess="true" />
+143-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\03390efd66f5eae5b821fceb55dd5883\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+144
+145        <service
+145-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:29:9-35:19
+146            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+146-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:30:13-103
+147            android:exported="false" >
+147-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:31:13-37
+148            <meta-data
+148-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:32:13-34:39
+149                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+149-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:33:17-94
+150                android:value="cct" />
+150-->[com.google.android.datatransport:transport-backend-cct:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\33d3c5e72268b2fca9fc33ac7b63b786\jetified-transport-backend-cct-2.1.0\AndroidManifest.xml:34:17-36
+151        </service>
+152        <service
+152-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:26:9-30:19
+153            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+153-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:27:13-117
+154            android:exported="false"
+154-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:28:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" >
+155-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:29:13-69
+156        </service>
+157
+158        <receiver
+158-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:32:9-34:40
+159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+159-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:33:13-132
+160            android:exported="false" />
+160-->[com.google.android.datatransport:transport-runtime:2.1.0] C:\Users\mcam5\.gradle\caches\transforms-2\files-2.1\3a2ab9c88799f7d6c8d6d7baa75dae1f\jetified-transport-runtime-2.1.0\AndroidManifest.xml:34:13-37
+161    </application>
+162
+163</manifest>
